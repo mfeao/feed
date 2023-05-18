@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "noEmit": false,
+    "declaration": true,
+    "rootDir": "src/package",
+    "outDir": "dist/cjs"
+  },
+  "include": [
+    "src/package"
+  ],
+  "extends": "./tsconfig.json"
+}

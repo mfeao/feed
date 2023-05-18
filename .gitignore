@@ -11,6 +11,12 @@
 # production
 /build
 
+# package
+/dist
+# typically a symlink to the `../dist` used to import compiled code
+# for testing purposes before packagepublishing
+/src/dist
+
 # misc
 .DS_Store
 .env.local

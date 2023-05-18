@@ -1,0 +1,17 @@
+// @see https://plusreturn.com/blog/how-to-configure-a-path-alias-in-a-react-typescript-app-for-cleaner-imports/#configuring-an-alias
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@dist": [
+        "src/dist"
+      ],
+      "@package": [
+        "src/package"
+      ],
+      "~/*": [
+        "src/package/*"
+      ]
+    }
+  }
+}
