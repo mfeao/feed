@@ -17,12 +17,26 @@
     "url": "https://github.com/mfeao/feed.git"
   },
   "peerDependencies": {
+    "@headlessui/react": "^1.7.14",
+    "@heroicons/react": "^2.0.18",
+    "@mfeao/uikit": "^0.1.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "tailwindcss": "^3.0.2"
   },
+  "dependencies": {
+    "@headlessui/react": "^1.7.14",
+    "@heroicons/react": "^2.0.18",
+    "@mfeao/uikit": "^0.1.0",
+    "@types/lodash": "^4.14.194",
+    "@types/qs": "^6.9.7",
+    "axios": "^1.4.0",
+    "lodash": "^4.17.21",
+    "qs": "^6.11.2"
+  },
   "devDependencies": {
     "@craco/craco": "^7.1.0",
+    "@reduxjs/toolkit": "^1.9.5",
     "@testing-library/jest-dom": "^5.14.1",
     "@testing-library/react": "^13.0.0",
     "@testing-library/user-event": "^13.2.1",
@@ -32,7 +46,10 @@
     "@types/react-dom": "^18.0.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-redux": "^8.0.5",
+    "react-router-dom": "^6.11.2",
     "react-scripts": "5.0.1",
+    "redux-saga": "^1.2.3",
     "tailwindcss": "^3.0.2",
     "tsc-alias": "^1.8.6",
     "typescript": "^4.4.2",
